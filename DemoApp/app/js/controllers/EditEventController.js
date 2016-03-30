@@ -2,6 +2,7 @@
 
 eventsApp.controller('EditEventCtrl', function EditEventsController( $scope ){
     $scope.saveEvent = function ( event, newEventForm ){
+        console.log(newEventForm);
         if ( newEventForm.$valid ){
             window.alert('event ' + event.name + ' saved!');
         } else {

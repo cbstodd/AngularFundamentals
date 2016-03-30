@@ -32,6 +32,12 @@ hr.thick-line {
     border-bottom: 2px solid #333333;
 }
 
+/*Changes form input to pink when invalid*/
+input.ng-invalid.ng-dirty {
+    background-color: lightpink;
+    color: #000;
+}
+
 .img-ng {
     max-width: 50%;
 }
